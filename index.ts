@@ -82,7 +82,8 @@ async function run() {
 
                 console.log('replying to', msg.key.remoteJid)
                 await sock!.readMessages([msg.key])
-                await sendMessageWTyping({ text: `Hello ${nome}!` }, msg.key.remoteJid!)
+                await
+                  await sendMessageWTyping({ text: `Hello ${nome}!` }, msg.key.remoteJid!)
               }
             }
           }
